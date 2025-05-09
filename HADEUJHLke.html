@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Play Video</title>
+</head>
+<body>
+
+    <button onclick="showVideo()">Play Video</button>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News BD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .bd {
+            color: #2980b9;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #2980b9;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3498db;
+        }
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        legend {
+            font-weight: bold;
+            padding: 0 10px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        input[type="radio"] + label {
+            margin-right: 20px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            form {
+                padding: 15px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>News BD</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Welcome to <span class="bd">news.bd</span> 🎥</h1>
+    <form>
+        <fieldset>
+            <legend>Sign in to get news</legend>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br/><br/>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br/><br/>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br/><br/>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br/><br/>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br/><br/>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br/><br/>
+
+            <label for="country">Select your country:</label><br>
+            <select id="country" name="country">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Laos">Laos</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Timor-Leste">Timor-Leste</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+                <option value="South Korea">South Korea</option>
+                <option value="North Korea">North Korea</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Macau">Macau</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Turkmenistan">Turkmenistan</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Tajikistan">Tajikistan</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Russia">Russia</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Moldova">Moldova</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Poland">Poland</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Slovakia">Slovakia</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Romania">Romania</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                <option value="Montenegro">Montenegro</option>
+                <option value="North Macedonia">North Macedonia</option>
+                <option value="Albania">Albania</option>
+                <option value="Greece">Greece</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Cyprus">Cyprus</option>
+                <option value="Italy">Italy</option>
+                <option value="Malta">Malta</option>
+                <option value="San Marino">San Marino</option>
+                <option value="Vatican City">Vatican City</option>
+                <option value="Spain">Spain</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Andorra">Andorra</option>
+                <option value="France">France</option>
+                <option value="Monaco">Monaco</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Germany">Germany</option>
+                <option value="Austria">Austria</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Liechtenstein">Liechtenstein</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Norway">Norway</option>
+                <option value="Finland">Finland</option>
+                <option value="Iceland">Iceland</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Ireland">Ireland</option>
+                <option value="United States">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Belize">Belize</option>
+                <option value="Honduras">Honduras</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Panama">Panama</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="Haiti">Haiti</option>
+                <option value="Puerto Rico">Puerto Rico</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Saint Lucia">Saint Lucia</option>
+                <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                <option value="Grenada">Grenada</option>
+                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Suriname">Suriname</option>
+                <option value="French Guiana">French Guiana</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Peru">Peru</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Falkland Islands">Falkland Islands</option>
+                <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                <option value="Bolivia">Bolivia</option>
+            </select><br/><br/>
+            <button onclick="showVideo('Generated File May 09, 2025 - 9_52PM.mp4')">Play news</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+    <script>
+        function showVideo() {
+            var videoUrl = 'Generated File May 09, 2025 - 9_52PM.mp4';
+            var videoWindow = window.open(videoUrl, '_blank');
+            videoWindow.focus();
+        }
+    </script>
+    
